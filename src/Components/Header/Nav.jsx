@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Nav = () => {
+<<<<<<< HEAD
     const [navbarOpen, setNavbarOpen] = React.useState(false);  
     return (
         
@@ -59,5 +60,13 @@ const Nav = () => {
     
   )
 }
+=======
+  return (
+    <div>
+      <h1>hello world</h1>
+    </div>
+  );
+};
+>>>>>>> ee8d7efe40f30ddf19190e40c92c74e4c743f4ab
 
 export default Nav
