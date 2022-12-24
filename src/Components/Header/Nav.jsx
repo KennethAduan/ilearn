@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Nav = () => {
-<<<<<<< HEAD
+
     const [navbarOpen, setNavbarOpen] = React.useState(false);  
     return (
         
