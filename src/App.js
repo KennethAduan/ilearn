@@ -1,12 +1,11 @@
-
-import './App.css';
-
+import "./App.css";
+import Mainpage from "./Components/Main/main.jsx";
+import Navpage from "./Components/Header/Nav.jsx";
 function App() {
   return (
     <div className="App">
-       <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+      <Navpage/>
+      <Mainpage/>
     </div>
   );
 }
